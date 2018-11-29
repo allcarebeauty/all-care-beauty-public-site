@@ -1,4 +1,9 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "all-care-beauty"
-title = "My New Hugo Site"
+title = "All Care Beauty"
+[permalinks]
+  post = "/:title/"
+
+[params]
+  address = "7 Barbara Street Fairfield NSW 2165"
