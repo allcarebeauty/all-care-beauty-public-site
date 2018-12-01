@@ -13,8 +13,7 @@
                             </a>
                         </div>
                         <div class="footer_about_text">
-                            <p>Nulla facilisi. Nulla egestas vel lacus sed interdum. Sed mollis, orci eleme ntum
-                                eleifend tempor, nunc libero porttitor tellus.</p>
+                            <p>{{ .Site.Params.description }}</p>
                         </div>
                     </div>
                 </div>
@@ -24,9 +23,8 @@
                     <div class="footer_contact">
                         <div class="footer_title">Contact Info</div>
                         <ul class="contact_list">
-                            <li>+53 345 7953 32453</li>
-                            <li>yourmail@gmail.com</li>
-                            <li>contact@gmail.com</li>
+                            <li>{{ .Site.Params.phone }}</li>
+                            <li>{{ .Site.Params.email }}</li>
                         </ul>
                     </div>
                 </div>
@@ -84,9 +82,11 @@
                         <div class="copyright">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;
-                            {{ now.Format "2006"}} All rights reserved | This
-                            template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                target="_blank" rel="noreferrer">Colorlib</a>
+                            {{ now.Format "2006"}} All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> using <a href="https://colorlib.com"
+                                target="_blank" rel="noreferrer">Colorlib</a>, <a href="https://gohugo.io/"
+                                target="_blank" rel="noreferrer">Hugo</a>, <a href="https://www.netlify.com/"
+                                target="_blank" rel="noreferrer">Netlify</a>, <a href="https://github.com/allcarebeauty/all-care-beauty-public-site"
+                                target="_blank" rel="noreferrer">GitHub</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div>
                         <nav class="footer_nav ml-md-auto">
