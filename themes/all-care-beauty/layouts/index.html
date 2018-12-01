@@ -1,5 +1,33 @@
 {{ define "main" }}
 
+<div class="home">
+    <div class="home_slider_container">
+        <div class="owl-carousel owl-theme home_slider">
+            <div class="owl-item">
+                <div class="background_image" style="background-image:url(/images/home_slider.jpg)"></div>
+                <div class="home_container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="home_content">
+                                    <div class="home_subtitle">Minor Cosmetic Surgery Specialists</div>
+                                    <div class="home_title">Love Yourself</div>
+                                    <div class="home_text">
+                                        <p>{{ .Site.Params.description }}</p>
+                                    </div>
+                                    <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
+                                        <div class="button button_1 trans_200"><a href="#">read more</a></div>
+                                        <div class="button button_2 trans_200"><a href="#">make an appointment</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 {{.Content}}
 
