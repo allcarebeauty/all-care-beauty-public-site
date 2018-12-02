@@ -6,8 +6,8 @@ title = "All Care Beauty"
   post = "/:title/"
 
 [params]
-  address = "7 Barbara Street Fairfield NSW 2165"
-  description = "We Provide minor cosmetic surgery and botox treatment, using the latest technologies, all at the heart of Western Sydney in Fairfield."
+  address = "7 Barbara Street, Fairfield NSW 2165"
+  description = "We provide minor cosmetic surgery and botox treatment, using the latest technologies, all at the heart of Western Sydney in Fairfield."
   phone = "(02) 9723 9000"
   email = "dr@allcarebeauty.com.au"
   callToAction = "Enquire Now"
